@@ -1,0 +1,205 @@
+/* &display=swap&subset=cyrillic-ext */
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* Одно значение margin и padding - применяется со всех сторон*/
+
+.header {
+	background-color: green;
+	color: #fff;
+	font-size: 50px;
+	margin: 50px;
+	padding: 30px;
+	text-align: center;
+}
+.paragraph {
+	font-size: 30px;
+}
+/*Нижний блок навалился на верхний */
+.text {
+	background-color: aquamarine;
+	font-size: 20px;
+	margin: -50px 0px 50px 0px;
+}
+
+/* Установлена ширина блочного тега+margin */
+.width {
+	width: 100px;
+	font-size: 20px;
+	background-color: rosybrown;
+	margin: 0 0 50px 50px;
+	overflow: auto;
+}
+
+/* Центрирование объекта с помощью  margin */
+.punkt {
+	margin: 0px auto;
+	width: 500px;
+	background-color: salmon;
+	font-size: 20px;
+	text-align: justify;
+}
+
+/* Прижали объект справа и отступ вниз*/
+.son {
+	background-color: skyblue;
+	font-size: 20px;
+	margin: 0 0 50px auto;
+	width: 100px;
+}
+
+/* Объект может быть уже 800px,но не шире. Резинится */
+.parent {
+	background-color: royalblue;
+	font-size: 30px;
+	max-width: 800px;
+	margin: 0px auto;
+	text-align: right;
+}
+/* Устанвлена мин ширина */
+.block {
+	min-width: 700px;
+	padding: 50px;
+	font-size: 20px;
+	background-color: red;
+}
+
+.none {
+	display: none;
+}
+/* Свойство overflow: hidden; */
+.first {
+	max-height: 200px;
+	padding: 50px;
+	background-color: blueviolet;
+	font-size: 20px;
+	overflow: hidden;
+}
+
+/* Как влияют отступы на строчные объекты */
+.inline {
+	background-color: #457949;
+	color: #fff;
+	font-size: 20px;
+	width: 200px;
+	padding: 10px;
+	line-height: 50px;
+}
+
+/* Работа с изображениями */
+.image {
+	padding: 50px;
+	background-color: red;
+	margin: 50px;
+	width: 500px;
+}
+/* Задание 1 */
+.hello {
+	display: block;
+	margin: 20px;
+}
+/* Задание 2 */
+.item {
+	font-size: 0px;
+}
+
+.task {
+	max-width: 200px;
+	max-height: 200px;
+	padding: 15px;
+	display: inline-block;
+	text-align: justify;
+	background-color: cadetblue;
+	font-size: 20px;
+	overflow: hidden;
+}
+/* Задание 3 */
+.link {
+	font-size: 30px;
+	color: red;
+	margin: 0px 0px 30px 0px;
+	display: inline-block;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 700;
+	background-color: crimson;
+	margin: 50px 0 50px 0;
+}
+/* Задание 4 */
+.paragraphs {
+	font-size: 0px;
+}
+.four {
+	max-width: 100px;
+	padding: 10px;
+	display: inline-block;
+	margin: 0 30px 0 0;
+	font-size: 10px;
+	background-color: darkmagenta;
+}
+/* Задание 5 */
+.web {
+	background-color: darkolivegreen;
+	font-size: 30px;
+	padding: 30px;
+}
+.webs {
+	margin: -50px 0 0 0;
+	background-color: deeppink;
+	padding: 30px;
+	font-size: 30px;
+}
+/* Задание 6 */
+.scroll {
+	max-height: 200px;
+	overflow: scroll;
+	font-size: 20px;
+	background-color: gold;
+	display: block;
+}
